@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/buttonColor"
+    android:backgroundTint="@color/background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="670dp"
+        android:background="@color/background"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Artist 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/artist1Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/chappellroan" />
+
+                    <!-- Heart Button -->
+                    <ImageButton
+                        android:id="@+id/heart1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Favorite"
+                        android:src="@drawable/heartoutline" />
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/artist1Song"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="♪ Good Luck Babe"
+                    android:fontFamily="@font/buttergold"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="36sp" />
+            </LinearLayout>
+
+            <!-- Artist 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/artist2Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/giveon" />
+
+                    <!-- Heart Button -->
+                    <ImageButton
+                        android:id="@+id/heart2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Favorite"
+                        android:src="@drawable/heartoutline" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/artist2Song"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="♪ TWENTIES"
+                    android:fontFamily="@font/buttergold"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <!-- Artist 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/artist3Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/lunarvacation2" />
+
+                    <!-- Heart Button -->
+                    <ImageButton
+                        android:id="@+id/heart3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Favorite"
+                        android:src="@drawable/heartoutline" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/artist3Song"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:text="♪ Swimming"
+                    android:fontFamily="@font/buttergold"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+            <!-- Artist 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp">
+
+                    <ImageView
+                        android:id="@+id/artist4Image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/ritapayes" />
+
+                    <!-- Heart Button -->
+                    <ImageButton
+                        android:id="@+id/heart4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="8dp"
+                        android:background="@android:color/transparent"
+                        android:contentDescription="Favorite"
+                        android:src="@drawable/heartoutline" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/artist4Song"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="♪ Nunca vas a comprender"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/buttergold"
+                    android:textStyle="bold"
+                    android:textSize="40sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/exploreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/letsgetcrazy"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/buttonColor"
+            android:padding="3dp"
+            android:text="@string/exploreButton" />
+
+        <Button
+            android:id="@+id/quizButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/letsgetcrazy"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/buttonColor"
+            android:padding="3dp"
+            android:text="@string/quizButton" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:fontFamily="@font/letsgetcrazy"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/buttonColor"
+            android:layout_weight="1"
+            android:padding="3dp"
+
+            android:text="@string/profileButton" />
+
+        <Button
+            android:id="@+id/settingsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/letsgetcrazy"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:backgroundTint="@color/buttonColor"
+            android:padding="3dp"
+            android:text="@string/settings" />
+    </LinearLayout>
+</LinearLayout>
+
+

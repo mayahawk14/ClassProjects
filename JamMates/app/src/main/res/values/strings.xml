@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">JamMatesQuiz</string>
+
+    <!--welcome page-->
+    <string name="welcomeNoteP1">Welcome to the JamMates </string>
+    <string name="welcomeNoteP2">Music Genre Quiz!</string>
+    <string name="casseteTape">transparent image of cassette tape</string>
+    <string name="continueButton">CONTINUE</string>
+    <string name="welcomeMessage">Not sure what music genre\'s your vibe? No problem! Take a short quiz to see what music genre we recommend!</string>
+    <string name="backToHome">Back To Home Page</string>
+
+
+    <!--questions page-->
+
+
+    <!--results page-->
+    <string name="resultsNote">And the results are in</string>
+    <string name="resultsNote2">Your recommended music genre is</string>
+    <string name="placeholderDescription">image where genre picture will go depending on user score</string>
+    <string name="homeButton">HOME</string>
+    <string name="homeMessage">Thank you for taking the quiz\nclick here to go back to the main page</string>
+    <string name="pop">POP</string>
+    <string name="country">COUNTRY</string>
+    <string name="classical">CLASSICAL</string>
+    <string name="rock">ROCK</string>
+
+    <string name="my_username">my username</string>
+    <string name="quizButton">Quiz</string>
+    <string name="exploreButton">Explore</string>
+    <string name="settings">Settings</string>
+
+    <string name="profileButton">My Profile</string>
+
+    <string-array name="explore_filters">
+        <item>Artist</item>
+        <item>Genre</item>
+        <item>Song</item>
+    </string-array>
+
+
+
+</resources>

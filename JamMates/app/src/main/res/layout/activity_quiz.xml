@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/welcomeMessage1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="@font/letsgetcrazy"
+            android:text="@string/welcomeNoteP1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <ImageView
+            android:id="@+id/cassetteIcon"
+            android:layout_width="238dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/casseteTape"
+            app:srcCompat="@drawable/cassetteicon" />
+
+        <TextView
+            android:id="@+id/welcomeMessage2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="45sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/letsgetcrazy"
+            android:textColor="@color/black"
+            android:layout_marginBottom="50dp"
+            android:text="@string/welcomeNoteP2" />
+
+        <TextView
+            android:id="@+id/welcomeMessge"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="45dp"
+            android:fontFamily="@font/buttergold"
+            android:text="@string/welcomeMessage"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/continueButton"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/buttonColor"
+            android:fontFamily="@font/letsgetcrazy"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="7dp"
+            android:text="@string/continueButton" />
+
+        <Button
+            android:id="@+id/backToHomePage"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#022549"
+            android:fontFamily="@font/letsgetcrazy"
+            android:padding="5dp"
+            android:text="@string/backToHome"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

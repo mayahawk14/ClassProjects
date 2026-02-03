@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/explorerBackButton"
+        android:layout_width="75dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:layout_gravity="end"
+        android:fontFamily="@font/letsgetcrazy"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="@color/homeButton"
+        android:text="Back" />
+
+    <Spinner
+        android:id="@+id/spinnerFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/filter_options" />
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search by artist, song, genre" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
