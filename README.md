@@ -6,6 +6,9 @@ Here are some miscellaneous class projects that I am too proud of to get rid of.
 ## 📱 JamMates 📱
 A mobile application designed to make music discovery more personal, fun, and community driven. Whether you’re looking to get out of a playlist rut or share your current music obsessions, JamMates is your gateway to exploring tunes that fit your mood and style!
 
+<img width="177" height="381" alt="Screenshot 2025-08-12 at 4 19 15 PM" src="https://github.com/user-attachments/assets/49bc79cd-2557-43d8-a7cc-b4b5af577114" />
+
+
 ### Tools Used
 -   **Java** (for core logic and Android integration)
 -   **Android Studio**
