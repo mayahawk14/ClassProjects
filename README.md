@@ -56,6 +56,7 @@ A data management system I created to organize a txt/csv file full of different 
 -   **Java** (for core logic and Android integration)
 -   **Ecplipse**
 -   **CSV/TXT files**
+
 Example Output:<br>
 <img width="500" height="174" alt="Screenshot 2026-03-03 at 5 50 32 PM" src="https://github.com/user-attachments/assets/c33433f7-8c20-4714-b963-244b447ef5db" />
 
@@ -69,7 +70,7 @@ Another data management system that reads csv files with information on Starship
 
 ## Payroll Database
 ANOTHER data management/calculation system that uses an employee's ID to input and track the individual pay rate, amount of hours worked, and calculates the wages for each employee.<br>
-Example Output:
+Example Output:<br>
 <img width="363" height="572" alt="Screenshot 2026-03-03 at 5 35 00 PM" src="https://github.com/user-attachments/assets/82b01abb-266e-40b8-9478-df6541e0661d" />
 
 
