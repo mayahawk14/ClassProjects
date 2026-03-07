@@ -56,8 +56,8 @@ Click the green ▶️ play button in Android Studio
 ## 📼 Blockbuster Sort 📼
 A data management system I created to organize a txt/csv file full of different media types such as movies, tv shows, albums, etc. I very much enjoy optimizing organization, so this project was fun and easy for me. I also am a media person so I appreciated getting to work with familiar titles.
 ### Tools Used
--   **Java** (for core logic and Android integration)
--   **Ecplipse**
+-   **Java** 
+-   **Ecplipse IDE**
 -   **CSV/TXT files**
 
 Example Output:<br>
@@ -68,11 +68,14 @@ Example Output:<br>
 Another data management system that reads csv files with information on Starships such as name, registry, star class, and crew members and allows you to create a fleet of ships and print the organized information neatly. Again, the Star Trek theme pretty much kept me from falling asleep.
 ### Tools Used
 -   **Java** 
--   **Ecplipse**
+-   **Ecplipse IDE**
 -   **CSV/TXT files**
 
 ## 💸 Payroll Database 💸
-ANOTHER data management/calculation system that uses an employee's ID to input and track the individual pay rate, amount of hours worked, and calculates the wages for each employee.<br>
+ANOTHER data management/calculation system that uses an employee's ID to input and track the individual pay rate, amount of hours worked, and calculates the wages for each employee.
+### Tools Used
+-   **C++** 
+-   **IntelliJ IDE**
 Example Output:<br>
 <img width="363" height="572" alt="Screenshot 2026-03-03 at 5 35 00 PM" src="https://github.com/user-attachments/assets/82b01abb-266e-40b8-9478-df6541e0661d" />
 
